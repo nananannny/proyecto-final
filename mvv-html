@@ -1,0 +1,58 @@
+  <section id="services" class="padding-medium">
+    <div class="container-fluid padding-side" data-aos="fade-up">
+      <h3 class="display-3 text-center fw-normal col-lg-4 offset-lg-4">Filosofía del Centro</h3>
+      <div class="row mt-5">
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <img src="images/icon-mision.png" alt="Misión" class="img-fluid mb-3" style="width: 70px; height: auto;">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Misión</h4>
+            <p style="width: 110%">Capacitar la población estudiantil de tres años en adelante, ofreciendo una 
+              educación integral, promoviendo la educación técnica como vehiculo para el desarrollo. </p>
+            <a href="index.html" class="btn btn-arrow">
+              <span class="text-decoration-underline">Ver más<svg width="18" height="18">
+                  <use xlink:href="#arrow-right"></use>
+                </svg></span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <img src="images/icon-vision.png" alt="Visión" class="img-fluid mb-3" style="width: 70px; height: auto;">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Visión</h4>
+            <p>Dios nos ha llamado y nosotros respondemos hasta transformar la sociedad sanjuanera, 
+              con el poder del Espiritu Santo, usando la educación como medio. </p>
+            <a href="index.html" class="btn btn-arrow">
+              <span class="text-decoration-underline">Ver más<svg width="18" height="18">
+                  <use xlink:href="#arrow-right"></use>
+                </svg></span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <img src="images/icon-valores.png" alt="Valores" class="img-fluid mb-3" style="width: 70px; height: auto;">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Valores</h4>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+              <li>Amor</li>
+              <li>Solidaridad</li>
+              <li>Calidad</li>
+              <li>Transformación</li>
+              <li>Honestidad</li>
+              <li>Justicia</li>
+            </ul>
+            <a href="index.html" class="btn btn-arrow">
+              <span class="text-decoration-underline">Ver más<svg width="18" height="18">
+                  <use xlink:href="#arrow-right"></use>
+                </svg></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
