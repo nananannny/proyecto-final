@@ -1,0 +1,338 @@
+.text-center {
+    text-align: center !important;
+}
+
+section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+section {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    scroll-margin-top: -1.5625rem;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    font-family: var(--reign-body-font-family);
+    font-size: var(--reign-body-font-size);
+    font-weight: var(--reign-body-font-weight);
+    line-height: var(--reign-body-line-height);
+    color: var(--reign-body-color);
+    text-align: var(--reign-body-text-align);
+    background-color: var(--reign-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+:root, :root.light, :root .light {
+    --reign-facebook: #3b5998;
+    --reign-colored-link-facebook-hover-color: #2f477a;
+    --reign-google-plus: #db4437;
+    --reign-colored-link-google-plus-hover-color: #af362c;
+    --reign-twitter: #1da1f2;
+    --reign-colored-link-twitter-hover-color: #1781c2;
+    --reign-linkedin: #0077b5;
+    --reign-colored-link-linkedin-hover-color: #005f91;
+    --reign-youtube: #ff0001;
+    --reign-colored-link-youtube-hover-color: #cc0001;
+    --reign-github: #24292e;
+    --reign-colored-link-github-hover-color: #1d2125;
+    --reign-black: #000;
+    --reign-colored-link-black-hover-color: black;
+    --reign-100: #f5f5f5;
+    --reign-colored-link-100-hover-color: #f7f7f7;
+    --reign-200: #ecedee;
+    --reign-colored-link-200-hover-color: #f0f1f1;
+    --reign-300: #dadcdf;
+    --reign-colored-link-300-hover-color: #e1e3e5;
+    --reign-400: #c8cbcf;
+    --reign-colored-link-400-hover-color: #d3d5d9;
+    --reign-500: #b6babf;
+    --reign-colored-link-500-hover-color: #c5c8cc;
+    --reign-600: #9ba0a7;
+    --reign-colored-link-600-hover-color: #7c8086;
+    --reign-700: #777e87;
+    --reign-colored-link-700-hover-color: #5f656c;
+    --reign-800: #5f656c;
+    --reign-colored-link-800-hover-color: #4c5156;
+    --reign-900: #4f545a;
+    --reign-colored-link-900-hover-color: #3f4348;
+    --reign-1000: #373b3f;
+    --reign-colored-link-1000-hover-color: #2c2f32;
+    --reign-1100: #17191b;
+    --reign-colored-link-1100-hover-color: #121416;
+    --reign-white: #fff;
+    --reign-colored-link-white-hover-color: white;
+    --reign-primary: #007bff;
+    --reign-colored-link-primary-hover-color: #0062cc;
+    --reign-secondary: #777e87;
+    --reign-colored-link-secondary-hover-color: #5f656c;
+    --reign-success: #28a745;
+    --reign-colored-link-success-hover-color: #208637;
+    --reign-info: #17a2b8;
+    --reign-colored-link-info-hover-color: #128293;
+    --reign-warning: #ffc107;
+    --reign-colored-link-warning-hover-color: #ffcd39;
+    --reign-danger: #dc3545;
+    --reign-colored-link-danger-hover-color: #b02a37;
+    --reign-light: #f5f5f5;
+    --reign-colored-link-light-hover-color: #f7f7f7;
+    --reign-dark: #17191b;
+    --reign-colored-link-dark-hover-color: #121416;
+    --reign-body-bg: #fff;
+    --reign-body-color: #5f656c;
+    --reign-headings-color: #007bff;
+    --reign-link-color: #007bff;
+    --reign-link-hover-color: #0062cc;
+    --reign-border-color: #dadcdf;
+    --reign-box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+    --reign-box-shadow-sm: 0 0 1.563rem rgba(0, 0, 0, 0.08);
+    --reign-box-shadow-lg: 0 1rem 4rem rgba(0, 0, 0, 0.175);
+    --reign-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    --reign-component-active-color: ;
+    --reign-component-active-bg: #007bff;
+    --reign-muted: #b6babf;
+    --reign-blockquote-footer-color: #9ba0a7;
+    --reign-hr-color: var(--reign-border-color);
+    --reign-hr-opacity: 0.25;
+    --reign-mark-bg: #fcf8e3;
+    --reign-input-btn-focus-color: rgba(0, 123, 255, 0.25);
+    --reign-btn-link-color: #007bff;
+    --reign-btn-link-hover-color: #0062cc;
+    --reign-btn-disabled-color: #9ba0a7;
+    --reign-heading-color: #4f545a;
+    --reign-input-bg: #fff;
+    --reign-input-color: #4f545a;
+    --reign-input-border-color: #dadcdf;
+    --reign-input-focus-border-color: #80bdff;
+    --reign-input-focus-color: #4f545a;
+    --reign-input-placeholder-color: #c8cbcf;
+    --reign-input-plaintext-color: #5f656c;
+    --reign-form-check-label-color: ;
+    --reign-form-check-input-bg: #fff;
+    --reign-form-check-input-border: 1px solid rgba(0, 0, 0, 0.25);
+    --reign-form-check-input-border-color: #c8cbcf;
+    --reign-form-check-input-checked-color: #fff;
+    --reign-form-check-input-checked-bg-color: #007bff;
+    --reign-form-check-input-checked-border-color: #007bff;
+    --reign-form-check-input-indeterminate-color: #fff;
+    --reign-form-check-input-indeterminate-bg-color: #007bff;
+    --reign-form-check-input-indeterminate-border-color: #007bff;
+    --reign-form-switch-color: rgba(0, 0, 0, .25);
+    --reign-form-switch-focus-color: #80bdff;
+    --reign-form-switch-checked-color: #fff;
+    --reign-input-group-addon-color: #dadcdf;
+    --reign-input-group-addon-bg: #ecedee;
+    --reign-input-group-addon-border-color: #dadcdf;
+    --reign-form-select-color: #4f545a;
+    --reign-form-select-disabled-color: #9ba0a7;
+    --reign-form-select-bg: #fff;
+    --reign-form-select-disabled-bg: #ecedee;
+    --reign-form-select-indicator-color: #5f656c;
+    --reign-form-select-focus-box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+    --reign-form-select-border-color: #dadcdf;
+    --reign-form-select-focus-border-color: #80bdff;
+    --reign-form-range-track-bg: #dadcdf;
+    --reign-form-range-track-box-shadow: var(--reign-box-shadow-inset);
+    --reign-form-range-thumb-bg: #007bff;
+    --reign-form-range-thumb-box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
+    --reign-form-range-thumb-focus-box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+    --reign-form-range-thumb-active-bg: #b3d7ff;
+    --reign-form-range-thumb-disabled-bg: #b6babf;
+    --reign-form-file-focus-border-color: #80bdff;
+    --reign-form-file-focus-box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+    --reign-form-file-disabled-bg: #ecedee;
+    --reign-form-file-disabled-border-color: ;
+    --reign-form-file-color: #4f545a;
+    --reign-form-file-bg: #fff;
+    --reign-form-file-border-color: #dadcdf;
+    --reign-form-file-box-shadow: 0 0 0 transparent;
+    --reign-form-file-button-bg: #ecedee;
+    --reign-form-feedback-valid-color: #28a745;
+    --reign-form-feedback-invalid-color: #dc3545;
+    --reign-form-feedback-icon-valid-color: var(--reign-form-feedback-valid-color);
+    --reign-form-feedback-icon-invalid-color: var(--reign-form-feedback-invalid-color);
+    --reign-bg-navbar-glass: rgba(255, 255, 255, 0.85);
+    --reign-badge-soft-primary-background-color: #cce5ff;
+    --reign-badge-soft-primary-color: #004fa3;
+    --reign-badge-soft-secondary-background-color: #e4e5e7;
+    --reign-badge-soft-secondary-color: #80868f;
+    --reign-badge-soft-success-background-color: #d4edda;
+    --reign-badge-soft-success-color: #1a6b2c;
+    --reign-badge-soft-info-background-color: #d1ecf1;
+    --reign-badge-soft-info-color: #0f6876;
+    --reign-badge-soft-warning-background-color: #fff3cd;
+    --reign-badge-soft-warning-color: #a37c04;
+    --reign-badge-soft-danger-background-color: #f8d7da;
+    --reign-badge-soft-danger-color: #8d222c;
+    --reign-badge-soft-light-background-color: #fdfdfd;
+    --reign-badge-soft-light-color: #9d9d9d;
+    --reign-badge-soft-dark-background-color: #d1d1d1;
+    --reign-badge-soft-dark-color: #0f1011;
+    --reign-dropdown-bg: rgba(23, 25, 27, 0.95);
+    --reign-dropdown-color: #dadcdf;
+    --reign-dropdown-border-color: var(--reign-border-color);
+    --reign-dropdown-box-shadow: var(--reign-box-shadow-sm);
+    --reign-dropdown-link-color: #17191b;
+    --reign-dropdown-link-hover-color: #0b0c0d;
+    --reign-dropdown-link-hover-bg: null;
+    --reign-dropdown-link-active-color: #fff;
+    --reign-dropdown-link-active-bg: null;
+    --reign-dropdown-link-disabled-color: #9ba0a7;
+    --reign-dropdown-header-color: #9ba0a7;
+    --reign-dropdown-dark-color: #dadcdf;
+    --reign-dropdown-dark-bg: #5f656c;
+    --reign-dropdown-dark-border-color: rgba(0, 0, 0, 0.15);
+    --reign-dropdown-dark-divider-bg: rgba(255, 255, 255, 0.5);
+    --reign-dropdown-dark-box-shadow: null;
+    --reign-dropdown-dark-link-color: #dadcdf;
+    --reign-dropdown-dark-link-hover-color: #fff;
+    --reign-dropdown-dark-link-hover-bg: rgba(255, 255, 255, 0.15);
+    --reign-dropdown-dark-link-active-color: #fff;
+    --reign-dropdown-dark-link-active-bg: #000;
+    --reign-dropdown-dark-link-disabled-color: #b6babf;
+    --reign-dropdown-dark-header-color: #b6babf;
+    --reign-pagination-color: #9ba0a7;
+    --reign-pagination-bg: #fff;
+    --reign-pagination-border-color: #dadcdf;
+    --reign-pagination-hover-color: #fff;
+    --reign-pagination-hover-bg: #000;
+    --reign-pagination-hover-border-color: #000;
+    --reign-pagination-active-color: #fff;
+    --reign-pagination-active-bg: #000;
+    --reign-pagination-active-border-color: #000;
+    --reign-card-border-color: #ecedee;
+    --reign-card-cap-bg: rgba(0, 0, 0, 0);
+    --reign-card-cap-color: null;
+    --reign-card-color: null;
+    --reign-card-bg: #fff;
+    --reign-accordion-border-color: rgba(0, 0, 0, 0.125);
+    --reign-accordion-button-active-color: var(--reign-1000);
+    --reign-accordion-button-active-bg: $white;
+    --reign-swiper-nav-bg: rgba(255, 255, 255, 0.8);
+    --reign-toast-background-color: rgba(255, 255, 255, 0.85);
+    --reign-scrollbar-bg: rgba(200, 203, 207, 0.55);
+    --reign-hover-bg-black: #000;
+    --reign-hover-bg-100: #f5f5f5;
+    --reign-hover-bg-200: #ecedee;
+    --reign-hover-bg-300: #dadcdf;
+    --reign-hover-bg-400: #c8cbcf;
+    --reign-hover-bg-500: #b6babf;
+    --reign-hover-bg-600: #9ba0a7;
+    --reign-hover-bg-700: #777e87;
+    --reign-hover-bg-800: #5f656c;
+    --reign-hover-bg-900: #4f545a;
+    --reign-hover-bg-1000: #373b3f;
+    --reign-hover-bg-1100: #17191b;
+    --reign-hover-bg-white: #fff;
+    --reign-btn-disabled-custom-background: rgba(245, 245, 245, 0.65);
+    --reign-btn-disabled-custom-color: rgba(23, 25, 27, 0.3);
+}
+
+:root {
+    --reign-blue: #007bff;
+    --reign-indigo: #6610f2;
+    --reign-purple: #6f42c1;
+    --reign-pink: #e83e8c;
+    --reign-red: #dc3545;
+    --reign-orange: #fd7e14;
+    --reign-yellow: #ffc107;
+    --reign-green: #28a745;
+    --reign-teal: #20c997;
+    --reign-cyan: #17a2b8;
+    --reign-white: #fff;
+    --reign-gray: #9ba0a7;
+    --reign-gray-dark: #5f656c;
+    --reign-gray-black: #000;
+    --reign-gray-100: #f5f5f5;
+    --reign-gray-200: #ecedee;
+    --reign-gray-300: #dadcdf;
+    --reign-gray-400: #c8cbcf;
+    --reign-gray-500: #b6babf;
+    --reign-gray-600: #9ba0a7;
+    --reign-gray-700: #777e87;
+    --reign-gray-800: #5f656c;
+    --reign-gray-900: #4f545a;
+    --reign-gray-1000: #373b3f;
+    --reign-gray-1100: #17191b;
+    --reign-gray-white: #fff;
+    --reign-primary: #007bff;
+    --reign-secondary: #777e87;
+    --reign-success: #28a745;
+    --reign-info: #17a2b8;
+    --reign-warning: #ffc107;
+    --reign-danger: #dc3545;
+    --reign-light: #f5f5f5;
+    --reign-dark: #17191b;
+    --reign-primary-rgb: 0, 123, 255;
+    --reign-secondary-rgb: 119, 126, 135;
+    --reign-success-rgb: 40, 167, 69;
+    --reign-info-rgb: 23, 162, 184;
+    --reign-warning-rgb: 255, 193, 7;
+    --reign-danger-rgb: 220, 53, 69;
+    --reign-light-rgb: 245, 245, 245;
+    --reign-dark-rgb: 23, 25, 27;
+    --reign-white-rgb: 255, 255, 255;
+    --reign-black-rgb: 0, 0, 0;
+    --reign-body-color-rgb: 95, 101, 108;
+    --reign-body-bg-rgb: 255, 255, 255;
+    --reign-font-sans-serif: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --reign-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --reign-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --reign-body-font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --reign-body-font-size: 0.875rem;
+    --reign-body-font-weight: 400;
+    --reign-body-line-height: 1.5;
+    --reign-body-color: #5f656c;
+    --reign-body-bg: #fff;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+::selection {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+::selection {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+::selection {
+    background-color: #dc3545;
+    color: #fff;
+}
